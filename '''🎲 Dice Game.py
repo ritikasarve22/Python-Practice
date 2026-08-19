@@ -9,7 +9,7 @@ choices = [1,2,3,4,5,6]
 
 computer = random.choice(choices)
 
-user = input("Enter your choice = 1,2,3,4,5 or 6 : ")
+user = int(input("Enter your choice = 1,2,3,4,5 or 6 : "))
 
 print("Computer choice :  ",computer)
 
