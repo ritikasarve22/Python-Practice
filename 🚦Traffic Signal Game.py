@@ -12,7 +12,7 @@ computer = random.choice(choices)
 user = input("Enter you choice (red/yellow/green) :  ")
 print("Computer Choice :")
 
-if user == "red":
+if user == "red": 
     print("Stop 🛑")
 elif user == "yellow":
     print("Wait ⚠️")
