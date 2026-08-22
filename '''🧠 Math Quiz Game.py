@@ -6,8 +6,8 @@ Wrong → 0 points'''
 
 import random
 
-num1 = random.randint(1,10)
-num2 = random.randint(1,10)
+num1 = random.randint(1,100)
+num2 = random.randint(1,100)
 
 operator = random.choice(["+","-","*"])
 
@@ -28,7 +28,7 @@ answer = int(input("Enter your answer : "))
 
 if answer == correct_answer :
     score = score + 1
-    
+
 else :
     print("Wrong Answer !")
 
